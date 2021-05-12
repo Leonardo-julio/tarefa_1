@@ -1,0 +1,113 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-rendering: optimizeLegibility!important;
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+.sub-header {
+    top: 158px;
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: rgb(20, 20, 28);
+    z-index: 1110;
+}
+
+.sub-header>.wrapper {
+    position: relative;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.sub-header>.wrapper>.list-sub-header {
+    padding: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.sub-header>.wrapper>.list-sub-header>.nerdbunker-logo {
+    display: inline-block;
+    position: relative;
+    min-width: 150px;
+    width: 180px; /*largura da logo nerdbunker (tamanho)*/
+    height: 50px;
+    background-image: url(https://jovemnerd.com.br/wp-content/themes/jovem-nerd-v8/assets/images/logo-nerdbunker.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 0 20px;  /*espaçamento ao redor da logo*/
+    margin-top: 20px; /*margem acima da logo nerdbunker*/
+    margin-right: 100px;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+
+.sub-header .wrapper>.list-sub-header>.nerdbunker-logo>a {
+    display: block;
+    height: 100%;
+    color: transparent;
+    position: relative;
+}
+
+.sub-header>.wrapper>.list-sub-header>.item-block {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sub-header>.wrapper>.list-sub-header>.item-block>.item-secao {
+    display: flex;
+    flex: 1; /*usando o flex o tamanho do container é adaptado pelo tamanho do texto*/
+    margin-right: 36px;
+    padding: 6px 0 0;
+    white-space: nowrap;
+}
+
+.sub-header>.wrapper>.list-sub-header>.item-block>.item-secao>a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3bb4b4;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul {
+    list-style: none;
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+}

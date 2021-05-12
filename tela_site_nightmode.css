@@ -1,0 +1,11 @@
+body.nightmode{
+    background-color: #282830;
+}
+
+.nightmode .header-menu>.wrapper>.navigation-desktop>.list-cabecalho>.item-cabecalho> a{
+    color: white;
+}
+
+.nightmode .main-highlights>.item.-medium a{
+    color: white;
+}

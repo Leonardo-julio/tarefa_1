@@ -1,0 +1,152 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-rendering: optimizeLegibility!important;
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+body .site-content{
+    width: 100%;
+}
+
+.site-content{
+    padding: 228px;
+}
+
+.site-main {
+    position: relative;
+}
+
+.wrapper {
+    padding: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.ad {
+    display: block;
+    margin: 0 auto 0;
+    border: 6px;
+    text-align: center;
+    background-color: transparent;
+}
+
+#Position_HomeTopSuper {
+    min-height: 90px;
+    display: flex!important;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.ad>div {
+    margin: 0 auto 48px;
+}
+
+.main-highlights {
+    margin-bottom: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.main-highlights>.item.-medium {
+    max-width: 579px; /*espaço entre as duas imagens*/
+    width: 49.5%;
+}
+
+.main-highlights>,item:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+.main-highlights>.item>.imagem {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.main-highlights>.item>.imagem>.img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    border-style: none;
+}
+
+.main-highlights>.item>.info {
+    position: relative;
+}
+
+.main-highlights>.item>.info>.cat-item {
+    margin-bottom: 6px;
+}
+
+.cat-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3bb4b4;
+}
+
+.product-nerdcast {
+    color: #3bb4b4!important;
+}
+
+.product-series-tv {
+    color: #915faf!important;
+}
+
+.main-highlights>.item>.info>.title {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.main-highlights>.item>.info>.related-post {
+    display: block;
+    margin-top: 24px;
+}
+
+.main-highlights>.item .info .related-post>.item:last-of-type {
+    margin-bottom: 0;
+}
+
+.main-highlights>.item .info .related-post>.item{
+    position: relative;
+    padding: 1px;
+}
+
+.main-highlights>.item .info .related-post>.item::before{
+    content: "*";
+    position: relative;
+    top: 4px;
+    left: 0;
+    color: gray;
+}
+
+.texto-notice{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: gray;
+}
+
+ul.related-post {
+    padding-inline-start: 4px;
+}
+
+.main-highlights>.item.-medium a {
+    background-color: transparent;
+    text-decoration: none;
+    color:black;
+}

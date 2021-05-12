@@ -1,0 +1,59 @@
+.main-footer {
+    position: relative;
+    background: rgb(30, 30, 38);
+    padding: 48px 0;
+}
+
+.wrapper {
+    padding: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.main-footer>.wrapper>.site-map {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal; /* ???webkit?? 30/04 - webkit é um comando de renderização para plataformas webs */
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: initial; /* ???flex-wrap?? */
+    display: contents;
+}
+
+.main-footer>.wrapper>.site-map>.item-footer {
+    margin-bottom: 24px;
+}
+
+.main-footer>.wrapper>.site-map>.item-footer>.titulo {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #3bb4b4;
+    margin-bottom: 12px;
+}
+
+.main-footer>.wrapper>.site-map>.item-footer>a {
+    display: block;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+}
+
+.main-footer>.wrapper>.footer-info {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.main-footer>.wrapper>.footer-info>.info-error-report{
+    margin-bottom: 48px;
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+    display: block;
+}

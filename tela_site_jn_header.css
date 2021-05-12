@@ -1,0 +1,196 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-rendering: optimizeLegibility!important;
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: white;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.header-menu {
+    padding: 24px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(30, 30, 38);
+    z-index: 1120;
+    display: block;
+    position: fixed;
+    align-items: center;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header-menu, .scroll .header-menu, .sub-header, .scroll .sub-header, .header-menu>.wrapper>.site-branding, .scroll .header-menu>.wrapper>.site-branding {
+    transition: all .3s ease;
+}
+
+
+.site-branding {
+    min-width: 140px;
+    width: 170px; /*width=comprimento: ajustar o tamanho da logo no site*/
+    height: 110px; /*ajustar o tamanho do espaço ocupado pelo header*/
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    background-position: center center;
+}
+
+.header-menu>.wrapper>.site-branding>h1{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    background-position: center center;
+    background-image: url(https://jovemnerd.com.br/wp-content/themes/jovem-nerd-v8/assets/images/logo-jovemnerd.png);
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.navigation-desktop {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.header-menu .wrapper>.navigation-desktop>.search-form {
+    width: 280px;
+}
+
+.search-form {
+    position:relative;
+}
+
+.header-menu .wrapper>.navigation-desktop>.search-form>label {
+    display: block;
+    border: 2px solid white;
+}
+
+.header-menu .wrapper>.navigation-desktop>.search-form>label>input{
+    color: #b4b4b4!important;
+}
+
+.search-form label {
+    display: block;
+    border-radius: 25px;
+}
+
+.search-form label>input {
+    width: calc (100% - 100px);
+    padding: 6px 10px 5px 16px;
+    background: 0 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+}
+
+.search-form button {
+    padding-right: 20px;
+    position: absolute;
+    top: 4px; /*posiciona o botão dentro da borda do input verticalmente*/
+    right: 3px; /*posiciona o botão dentro da borda do input horizontamente*/
+    width: 110px; /*determina o tamanho do botão dentro do input*/
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    background: #3bb4b4;
+    padding: 3px 5px 4px;
+    border-radius: 25px;
+    border: none; /*tira as bordas do input*/
+}
+
+button, [type=button] {
+    -webkit-appearance: none;
+}
+
+button {
+    font-family: inherit;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.item-cabecalho{
+    position: relative;
+    display: inline-block;
+    margin-right: 38px;
+}
+
+.header-menu>.wrapper>.navigation-desktop>.list-cabecalho>.item-cabecalho> a{
+    font-weight: 500;
+    font-size: 21px; /*tamanho da fonte de textos do header cabeçalho)*/
+    line-height: 19px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+
+/* finalizado a parte de CSS header */
+
+
+
+/*
+background-color: rgb(40, 40, 48);
+background-color: rgb(30, 30, 38);
+background-color: rgb(20, 20, 28);
+color: rgb(59, 180, 180);*/
